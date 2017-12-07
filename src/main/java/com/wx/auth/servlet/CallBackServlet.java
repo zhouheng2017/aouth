@@ -90,11 +90,12 @@ public class CallBackServlet extends HttpServlet {
         while (rs.next()) {
             nickName = rs.getString("NICKNAME");
         }
+
+
         rs.close();
         ps.close();
         conn.close();
         return  nickName;
-
     }
 
 

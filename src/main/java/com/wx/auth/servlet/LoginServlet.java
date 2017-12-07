@@ -21,6 +21,7 @@ public class LoginServlet extends HttpServlet {
                 +"&scope=snsapi_userinfo"
                 +"&state=STATE#wechat_redirect";
 
+
         resp.sendRedirect(url);
 //        super.doGet(req, resp);
     }

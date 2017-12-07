@@ -15,6 +15,7 @@
 </head>
 <body>
 <center>
+
     <div>登录成功！Succeed!</div>
     <div>昵称 ${nickName}</div>
     <div></div>

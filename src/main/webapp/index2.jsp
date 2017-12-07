@@ -15,6 +15,7 @@
 </head>
 <body>
 <center>
+
 <div>登录成功！Succeed!</div>
 <div>昵称 ${info.nickname}</div>
 <div>用户头像<img style="vertical-align: top" width="100" height="100" alt="" src="${info.headimgurl}" ></div>

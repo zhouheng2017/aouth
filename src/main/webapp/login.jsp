@@ -15,6 +15,7 @@
 </head>
 <body>
 <center>
+
     <form action="/wxCallBack" method="post">
         <input type="text" name="account">
         <input type="password" name="password"/>

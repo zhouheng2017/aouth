@@ -24,6 +24,7 @@ public class AuthUtil {
         DefaultHttpClient client = new DefaultHttpClient();
         HttpGet httpGet = new HttpGet(url);
         HttpResponse response = client.execute(httpGet);
+
         HttpEntity entity = response.getEntity();
 
 
